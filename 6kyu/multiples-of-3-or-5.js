@@ -24,8 +24,8 @@ function solution(number){
         numArr.push(threeCheck);
         multiplesOfThree++;
       }
-      
-      // Check for duplicates since indexOf checks only first index number occurs 
+
+      // Check for duplicates since indexOf checks only first index number occur
       const finalArr = numArr.filter((number,index, thisArr)=>{
         return thisArr.indexOf(number) === index
       })
