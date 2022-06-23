@@ -25,7 +25,7 @@ function solution(number){
         multiplesOfThree++;
       }
 
-      // Check for duplicates since indexOf check only first index number occur
+      // Check for duplicates since indexOf check only first index number occurs
       const finalArr = numArr.filter((number,index, thisArr)=>{
         return thisArr.indexOf(number) === index
       })
