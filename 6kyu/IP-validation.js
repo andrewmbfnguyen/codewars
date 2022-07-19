@@ -54,5 +54,9 @@ console.log(isValidIP("12.255.56.21")); //True
 console.log(isValidIP("12.255.56.01")); //False
 
 
+//Optimal?
+function isValidIPaddress(str) {
+  return /^(([1-9]?\d|1\d\d|2[0-4]\d|25[0-5])(\.(?!$)|$)){4}$/.test(str);
+}
 
 
